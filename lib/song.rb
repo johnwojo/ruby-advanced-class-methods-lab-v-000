@@ -54,7 +54,7 @@ class Song
     split_file = filename.split(" - ")
     artist = split_file[0]
     song_name = split_file[1].split(".")[0]
-    song = Song.new
+    song = Song.create
     song.name = song_name
     song.artist_name = artist
     song
